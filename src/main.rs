@@ -188,6 +188,7 @@ fn main() {
         if order.is_empty() {
             // Check if the order is empty
             println!("Your order is empty!");
+            continue;
         }
 
         println!("This is order no. {}", van_binh.get_orders_count());
